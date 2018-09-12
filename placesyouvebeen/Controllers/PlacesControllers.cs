@@ -21,7 +21,7 @@ namespace PlacesYouveBeen.Controllers
     [HttpPost("/places")]
     public ActionResult Create()
     {
-      Place newPlace = new Place(Request.Form["new-place"]);
+      Place newPlace = new Place(Request.Form["new-place"], Request.Form["new-state"]);
       newPlace.Save();
       List<Place> allPlaces = Place.GetAll();
       return View("Index", allPlaces);
