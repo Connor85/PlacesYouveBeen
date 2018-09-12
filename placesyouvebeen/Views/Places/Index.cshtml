@@ -2,7 +2,7 @@
 <ul>
 @foreach(var item in Model)
 {
-<li>@item.GetCity(), @item.GetState()</li>
+<li><a href='/places/@item.GetId()'>@item.GetCity()</a></li>
 }
 
 </ul>

@@ -10,7 +10,7 @@ namespace PlacesYouveBeen.Controllers
     [HttpGet("/places")]
     public ActionResult Index()
     {
-      List<Place> allPlace = new List<Place> {};
+      List<Place> allPlace = Place.GetAll();
       return View(allPlace);
     }
     [HttpGet("/places/new")]
@@ -21,10 +21,15 @@ namespace PlacesYouveBeen.Controllers
     [HttpPost("/places")]
     public ActionResult Create()
     {
-      Place newPlace = new Place(Request.Form["new-place"], Request.Form["new-state"]);
-      newPlace.Save();
+      Place newPlace = new Place(Request.Form["new-place"], Request.Form["new-state"], Request.Form["new-description"]);
       List<Place> allPlaces = Place.GetAll();
       return View("Index", allPlaces);
+    }
+    [HttpGet("places/{id}")]
+    public ActionResult Details(int id)
+    {
+      Place city = Place.Find(id);
+      return View(city);
     }
   }
 }
