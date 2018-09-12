@@ -1,0 +1,8 @@
+/Users/Guest/Desktop/PlacesYouveBeen.Solution/placesyouvebeen/bin/Debug/netcoreapp1.1/PlacesYouveBeen.deps.json
+/Users/Guest/Desktop/PlacesYouveBeen.Solution/placesyouvebeen/bin/Debug/netcoreapp1.1/PlacesYouveBeen.runtimeconfig.json
+/Users/Guest/Desktop/PlacesYouveBeen.Solution/placesyouvebeen/bin/Debug/netcoreapp1.1/PlacesYouveBeen.runtimeconfig.dev.json
+/Users/Guest/Desktop/PlacesYouveBeen.Solution/placesyouvebeen/bin/Debug/netcoreapp1.1/PlacesYouveBeen.dll
+/Users/Guest/Desktop/PlacesYouveBeen.Solution/placesyouvebeen/bin/Debug/netcoreapp1.1/PlacesYouveBeen.pdb
+/Users/Guest/Desktop/PlacesYouveBeen.Solution/placesyouvebeen/obj/Debug/netcoreapp1.1/PlacesYouveBeen.AssemblyInfo.cs
+/Users/Guest/Desktop/PlacesYouveBeen.Solution/placesyouvebeen/obj/Debug/netcoreapp1.1/PlacesYouveBeen.dll
+/Users/Guest/Desktop/PlacesYouveBeen.Solution/placesyouvebeen/obj/Debug/netcoreapp1.1/PlacesYouveBeen.pdb

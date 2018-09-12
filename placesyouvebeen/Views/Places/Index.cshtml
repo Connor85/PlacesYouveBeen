@@ -1,0 +1,9 @@
+<h1>Places You've Been</h1>
+<ul>
+@foreach(var city in Model)
+{
+<li>@city.GetCity()</li>
+}
+
+</ul>
+<a href="/places/new">Add a new item.</a>
